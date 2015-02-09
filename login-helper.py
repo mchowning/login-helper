@@ -96,7 +96,7 @@ elif len(sys.argv) == 2:
     try:
         index = int(arg)
         allLogins = getLogins()
-        if index >=0 and index < len(allLogins):
+        if index in range(0, len(allLogins)):
             login = allLogins[index]
             print('Attempting to log in user: {}\t{}'.format(login.username, login.notes))
             loginToApp(login)
