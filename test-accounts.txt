@@ -1,0 +1,6 @@
+# This is a list of test accounts for use with the login-helper.py script.
+# Lines may be commented using a hashmark.  Each non-commented line must consist of the username and corresponding password, separated by a space.  Optionally, any login notes may be included on the same line after the password.
+#
+sample_login_1 sample_password some note about the login
+sample_login_2 some_other_sample_password 
+sample_login_3 yet_another_sample_password this one has a note too
